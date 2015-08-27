@@ -4,7 +4,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
+/**
+ * Created by Tino on 27/08/15.
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override

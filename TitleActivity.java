@@ -9,19 +9,19 @@ import android.widget.Button;
 import android.widget.Toast;
 
 /**
- * A placeholder fragment containing a simple view.
+ * Created by Tino on 27/08/15.
  */
-public class MainActivityFragment extends Fragment implements View.OnClickListener {
+public class TitleActivity extends Fragment implements View.OnClickListener {
 
     private Button btnStart;
 
-    public MainActivityFragment() {
+    public TitleActivity() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_main, container, false);
+        View view = inflater.inflate(R.layout.title, container, false);
         btnStart = (Button) view.findViewById(R.id.btnStart);
         btnStart.setOnClickListener(this);
 
